@@ -1,0 +1,28 @@
+{
+  "name": "astronomy-bot-api",
+  "version": "0.0.1",
+  "description": "offical api wrapper for astronomy bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheTeaCup/astronomy-bot-api.git"
+  },
+  "keywords": [
+    "astrology",
+    "discord-bot",
+    "bot",
+    "discord"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheTeaCup/astronomy-bot-api/issues"
+  },
+  "homepage": "https://github.com/TheTeaCup/astronomy-bot-api#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
