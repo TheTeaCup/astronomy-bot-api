@@ -13,6 +13,24 @@ var astronomyBotApi = require("astronomy-bot-api");
 const API = new astronomyBotApi("astronomy-KEY");
 
 let res = await API.randomImage();
+
+const embed = new Discord.MessageEmbed()
+.setColor("RANDOM")
+.setImage(`${res.image}`)
+.setTitle(`${res.name}`)
+.setURL(`https://astrology.mythicalbots.xyz/gallery/`)
+.setFooter(`submitted by: ${res.user}`)
+
+```
+
+Response for `randomImage()`:
+```
+{
+  id: '',
+  user: '',
+  image: '',
+  name: ''
+}
 ```
 
 Error Messages:
@@ -21,3 +39,4 @@ Error Messages:
 - Astronomy API - You are sending too many requests, please slow down
 
 ( ᵔ ᴥ ᵔ )
+
